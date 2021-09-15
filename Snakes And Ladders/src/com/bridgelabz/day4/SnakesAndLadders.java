@@ -1,4 +1,4 @@
-package com.fellowship.day05;
+package com.bridgelabz.day4;
 import java.util.*;
 
 public class SnakesAndLadders {
