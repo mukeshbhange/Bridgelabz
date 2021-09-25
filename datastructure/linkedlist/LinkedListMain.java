@@ -13,7 +13,7 @@ public class LinkedListMain {
 		boolean exit =true;
 		do {
 			System.out.println("Make Your Choice..");
-			System.out.println("1.Add Data\n2.Delete data \n3.Display List \n4.Size of list\n5.Search data\n6.Add data at front.\n7.Exit");
+			System.out.println("1.Add Data\n2.Delete data \n3.Display List \n4.Size of list\n5.Search data\n6.Add data at front.\n7.Sort Ascending\n8.Exit");
 			Scanner scanner = new Scanner(System.in);
 			int choice = scanner.nextInt();
 					
@@ -51,6 +51,10 @@ public class LinkedListMain {
 					}
 					break;
 				case 7:
+					list.sort();
+					System.out.println("List Sorted.");
+					break;
+				case 8:
 					System.out.println("You are exiting.");
 					exit = false;
 					break;
